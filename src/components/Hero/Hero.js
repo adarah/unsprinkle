@@ -5,8 +5,8 @@ import Image from "../Image";
 const Hero = () => {
   return (
     <Wrapper>
-      <HeroImage src="/images/hero-img.jpg" />
-      <Swoop src="/swoop.svg" />
+      <HeroImage src="/images/hero-img.jpg" alt="A cat staring deeply at your soul."/>
+      <Swoop src="/swoop.svg" alt="" />
     </Wrapper>
   );
 };
